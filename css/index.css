@@ -1,0 +1,136 @@
+body {
+	font-family: Arimo;
+}
+
+a {
+	text-decoration: none;
+}
+
+table {
+	text-align: center; 
+	width: 100%;
+}
+
+footer {
+	background-color: #ffa500; 
+	color: #ffffff; 
+	text-align: center; 
+	padding: 5px;
+}
+
+.other_work_links {
+	color: #ffffff;
+}
+
+.thumb-img {
+	width: 80%;
+}
+
+.table-text-container {
+	font-size: 16pt;
+}
+
+.thumb-text {
+	color: #000000; 
+	text-decoration: none;
+}
+
+.sub-title-line {
+	background-color: #ffa500; 
+	width: 150px; 
+	height: 2px; 
+	margin: auto;
+}
+
+#title-container {
+	position: relative; 
+	text-align: center; 
+	color: #ffffff;
+}
+
+#vista-bkgd {
+	overflow:  hidden;
+	max-width: 100%;
+}
+
+#title-name {
+	position: absolute; 
+	bottom: 120px; 
+	left: 50%; 
+	transform: translate(-50%, -50%);
+}
+
+#title-line {
+	background-color: #ffa500; 
+	width: 50%; 
+	height: 2px; 
+	position: absolute; 
+	left: 50%; 
+	bottom: 150px; 
+	transform: translate(-50%)
+}
+
+#title-job {
+	position: absolute; 
+	bottom: 100px; 
+	left: 50%; 
+	transform: translate(-50%);
+}
+
+#contact-icon-container {
+	position: absolute; 
+	bottom: 80px;
+	left: 50%; 
+	transform: translate(-50%);
+}
+
+#samples-container {
+	text-align: center; 
+	padding-bottom: 15px;
+}
+
+#thumb-promo {
+	padding-right: 10px;
+}
+
+#thumb-newsletter {
+	padding-left: 5px; padding-right: 5px;
+}
+
+#thumb-receipt {
+	padding-left: 10px;
+}
+
+#other-work-container {
+	text-align: center; 
+	background-color: #2f2f2f; 
+	color: #ffffff; 
+	padding-top: 15px; 
+	padding-bottom: 30px;
+}
+
+/* Mobile  */
+@media screen and (max-width: 480px) {
+
+}
+
+/* Tablets */
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    #vista-bkgd {
+    	height: 300px;
+    }
+}
+
+/* Small Screens */
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) { 
+    #vista-bkgd {
+    	height: 500px;
+    }
+}
+
+/* Large Screens */
+@media screen and (max-device-width: 1025px) { 
+    #vista-bkgd {
+    	height: 1000px;
+    }
+}
