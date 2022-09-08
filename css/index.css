@@ -16,6 +16,7 @@ footer {
 	color: #ffffff; 
 	text-align: center; 
 	padding: 5px;
+	font-size: 10pt;
 }
 
 .other_work_links {
@@ -40,6 +41,16 @@ footer {
 	width: 150px; 
 	height: 2px; 
 	margin: auto;
+}
+
+.thumb-text-src {
+	color: #000000;
+	background-color: #ffffff;
+	text-decoration: none;
+	font-size: 10pt;
+	border-style: solid;
+	border-color: #000000; 
+	padding: 2px;
 }
 
 #title-container {
@@ -111,6 +122,13 @@ footer {
 
 /* Mobile  */
 @media screen and (max-width: 480px) {
+	#vista-bkgd {
+    	visibility: hidden;
+    }
+
+    #title-name {
+    	color: #000000;
+    }
 
 }
 
