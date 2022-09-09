@@ -6,9 +6,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Promotional Email Sample</title>
 	<style type="text/css">
+
+		/* Colors
+			blue: #0046be;
+			gray: #e0e6ef;
+			yellow: #ffe100;
+		*/
 		body {
 			margin:  0;
 			padding: 0;
+			background-color: #e0e6ef;
+			font-family: sans-serif;
 		}
 		table {
 			border-spacing: 0;
@@ -18,6 +26,26 @@
 		}
 		img {
 			border: 0;
+		}
+		p {
+			font-size: 10pt;
+		}
+
+		.wrapper {
+			width: 100%;
+			table-layout: fixed;
+			padding-bottom: 40px;
+		}
+		.webkit {
+			max-width: 600px;
+			background-color: #ffffff;
+		}
+		.outer {
+			Margin:  0 auto;
+			width:  100%;
+			max-width: 600px;
+			border-spacing: 0;
+			color: #3d3d3d;
 		}
 
 		@media screen and (max-width: 600px) {
@@ -30,7 +58,53 @@
 </head>
 <body>
 
+	<center class="wrapper">
+		<div class="webkit">
 
+			<table class="outer">
+				
+				<!-- Banner, blue background -->
+				<tr style="background-color: #0046be;">
+					<td>
+						<a href="https://www.bestbuy.com/"><img src="img/receipt/bestbuy-icon.png" style="padding: 15px; height: 100%; max-height: 35px;" /></a>
+						<div style="height: 35px; width: 1px; background-color: #ffffff; position: absolute; top: 15px; left: 20%;" />
+						<a href="https://www.bestbuy.com/site/services/geek-squad/pcmcat138100050018.c?id=pcmcat138100050018"><img src="img/receipt/geeksquad-icon.png" style="padding-left: 15px; height: 100%; max-height: 35px;" /></a>
+					</td>
+				</tr>
+
+				<!-- Customer safety text, gray background -->
+				<tr>
+					<td>
+						<div style="margin: 20px; background-color: #e0e6ef; padding: 15px;">
+
+							<a style="text-decoration: none; color: #0046be;" href="https://www.bestbuy.com/site/misc/shop-confidently/pcmcat1584713369767.c?id=pcmcat1584713369767">
+								<div style="font-size: 17pt;"><strong>We're committed to keeping our customers and employees safe.</strong></div>
+								<div style="padding-top: 15px;"><strong><u>Check out our latest safety info</u>* ></strong></strong></strong></div>
+							</a>
+						
+						</div>
+						
+					</td>
+				</tr>
+
+				<!-- Check icon, order info text, order details button -->
+				<tr>
+					<td>
+						<img style="padding-left: 35px; width: 40px; height: auto;" src="img/receipt/check-icon.png" />
+					</td>
+				</tr>
+				<tr>
+					<td style="padding-left: 35px; padding-top: 15px;">
+						<div style="font-size: 22pt;"><strong>Here's your order information.</strong></div>
+						<p>Hello, we're getting your order ready. Thanks for shopping with Best Buy.</p>
+						<p>Order number: <span style="color: #0046be;"><strong>BBY01-XXXXXXXXXXXX</strong></span></p>
+					</td>
+				</tr>
+
+			</table>
+
+		</div>
+	</center>
 	
 </body>
 </html>
