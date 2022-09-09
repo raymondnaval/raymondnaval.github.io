@@ -54,6 +54,21 @@ footer {
 	padding: 2px;
 }
 
+.three-columns {
+	text-align: center;
+	font-size: 0; /* For Outlook */
+}
+
+.three-columns .column {
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.padding {
+	padding: 15px;
+}
+
 #title-container {
 	position: relative; 
 	text-align: center; 
