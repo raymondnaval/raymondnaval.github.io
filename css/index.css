@@ -54,17 +54,6 @@ footer {
 	padding: 2px;
 }
 
-.three-columns {
-	text-align: center;
-	font-size: 0; /* For Outlook */
-}
-
-.three-columns .column {
-	width: 100%;
-	display: inline-block;
-	vertical-align: top;
-}
-
 .padding {
 	padding: 15px;
 }
@@ -77,7 +66,8 @@ footer {
 
 #vista-bkgd {
 	overflow:  hidden;
-	max-width: 100%;
+	width: 100%;
+	height: auto;
 }
 
 #title-name {
@@ -133,6 +123,10 @@ footer {
     #title-name {
     	color: #000000;
     }
+    #title-job {
+    	color: #ffa500;
+    }
+
 
 }
 
