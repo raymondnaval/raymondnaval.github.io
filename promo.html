@@ -35,7 +35,6 @@
 			border-width: 1px;
 			border-color: #3d3d3d;
 			margin-top: 1em;
-			overflow: hidden;
 		}
 		.outer {
 			Margin:  0 auto;
@@ -47,12 +46,30 @@
 		.icons {
 			width: 25px;
 		}
-
-		@media screen and (max-width: 600px) and (min-width: 401px) {
-
+		.headliner-text {
+			font-size: 26pt;
 		}
-		@media screen and (max-width: 400px) {
-			
+		.medium-titles {
+			font-size: 16pt; 
+			margin-top: 20px; 
+			margin-left: 24px;
+		}
+
+		@media screen and (max-width: 500px) {
+			.headliner-text {
+				font-size: 18pt;
+			}
+		}
+		@media screen and (max-width: 360px) {
+			img {
+				width: 100%;
+			}
+			.headliner-text {
+				font-size: 16pt;
+			}
+			.medium-titles {
+				font-size: 12pt; 
+			}	
 		}
 	</style>
 </head>
@@ -71,8 +88,8 @@
 				
 				<tr style="text-align: center;">
 					<td>
-						<div style="font-size: 26pt; margin-top: 20px;"><strong>CYBER-MONDAY</strong></div>
-						<div style="font-size: 26pt;"><strong>25% off ALL ITEMS!</strong></div>
+						<div class="headliner-text" style="margin-top: 20px;"><strong>CYBER-MONDAY</strong></div>
+						<div class="headliner-text"><strong>25% off ALL ITEMS!</strong></div>
 					</td>
 				</tr>
 				
@@ -84,16 +101,16 @@
 				
 				<tr style="text-align: center;">
 					<td>
-						<div style="font-size: 26pt; margin-top: 20px;"><strong>Cyber Monday EXCLUSIVE--></strong></div>
-						<div style="font-size: 26pt;"><strong>TODAY ONLY:</strong></div>
-						<div style="font-size: 26pt; margin-top: 30px;"><strong>Get 25% off ALL ITEMS in the Lumpia Movie webstore. Use discount code CYBER25 at checkout (code is valid for today only)</strong> <a href="http://kidheroes.storenvy.com/">http://kidheroes.storenvy.com/</a></div>
+						<div class="headliner-text" style="margin-top: 20px;"><strong>Cyber Monday EXCLUSIVE--></strong></div>
+						<div class="headliner-text"><strong>TODAY ONLY:</strong></div>
+						<div class="headliner-text" style="margin-top: 30px;"><strong>Get 25% off ALL ITEMS in the Lumpia Movie webstore. Use discount code CYBER25 at checkout (code is valid for today only)</strong> <a href="http://kidheroes.storenvy.com/">http://kidheroes.storenvy.com/</a></div>
 					</td>
 				</tr>
 				
 				<tr>
 					<td>
-						<div style="font-size: 16pt; margin-top: 20px; margin-left: 24px;"><strong>LUMPIA WITH A VENGEANCE</strong></div>
-						<div style="font-size: 16pt; margin-top: 20px; margin-left: 24px;"><strong>And we just released the first full trailer! View it and share it here. </strong><a href="http://bit.ly/lumpiamovie">http://bit.ly/lumpiamovie</div>
+						<div class="medium-titles"><strong>LUMPIA WITH A VENGEANCE</strong></div>
+						<div class="medium-titles"><strong>And we just released the first full trailer! View it and share it here. </strong><a href="http://bit.ly/lumpiamovie">http://bit.ly/lumpiamovie</div>
 					</td>
 				</tr>
 
