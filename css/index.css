@@ -122,9 +122,12 @@ footer {
     }
     #title-name {
     	color: #000000;
+    	position: relative;
     }
     #title-job {
     	color: #ffa500;
+    	position: relative;
+    	margin-top: -30px;
     }
 
 
