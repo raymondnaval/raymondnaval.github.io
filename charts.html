@@ -19,11 +19,15 @@
 
     .chart-container {
       width: 600px;
-      max-width: 800px;
-      margin: auto;
+      max-width: 100%;
       background: white;
       padding: 20px;
       border-radius: 8px;
+    }
+
+     canvas {
+      width: 600px;
+      margin: auto;
     }
   </style>
 </head>
@@ -56,7 +60,10 @@
       }
     };
     let label = document.getElementById('labelSelect').value;
+    const tables = document.getElementById('tables');
+    tables.innerHTML = 'Checks STUDENT_INFO table';
     const ctx = document.getElementById('myChart2');
+    
 
     const chart = new Chart(ctx, {
       type: 'bar',
@@ -81,6 +88,7 @@
       label = selected;
       chart.data.labels = dataSets[selected].labels;
       chart.data.datasets[0].data = dataSets[selected].data;
+      tables.innerHTML = 'Joins STUDENT_INFO and SCHOOL_INFO table';
 
       chart.update();
     });
